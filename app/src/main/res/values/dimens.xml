@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="offset8">8dp</dimen>
+    <dimen name="offset_panel_default">12dp</dimen>
+    <dimen name="offset_content_default">12dp</dimen>
+    <dimen name="offset16">16dp</dimen>
+
+    <dimen name="body2">14sp</dimen>
+
+    <dimen name="height_line20">20sp</dimen>
+
+    <dimen name="size_arrow_default">20dp</dimen>
+
+    <dimen name="spacing4">4sp</dimen>
+</resources>

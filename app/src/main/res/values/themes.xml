@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ExpandedRadioButtons" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ExpandedRadioButtons.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ExpandedRadioButtons.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ExpandedRadioButtons.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Text14.RalewayBold" parent="RalewayBold">
+        <item name="android:textSize">@dimen/body2</item>
+        <item name="android:lineHeight" tools:targetApi="p">@dimen/height_line20</item>
+    </style>
+
+    <style name="Text14.RalewayBold.Mazarine" parent="Text14.RalewayBold">
+        <item name="android:textColor">@color/colorMazarineText</item>
+    </style>
+
+    <style name="RalewayBold">
+        <item name="android:fontFamily">@font/raleway_bold</item>
+    </style>
+
+    <style name="Raleway">
+        <item name="android:fontFamily">@font/raleway</item>
+    </style>
+
+    <style name="Text14.Raleway" parent="Raleway">
+        <item name="android:textSize">@dimen/body2</item>
+        <item name="android:lineHeight" tools:targetApi="p">@dimen/height_line20</item>
+    </style>
+
+    <style name="Text14.Raleway.Mazarine" parent="Text14.Raleway">
+        <item name="android:textColor">@color/colorMazarineText</item>
+    </style>
+
+    <style name="DropdownRadioButtonsStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="content_padding">@dimen/offset8</item>
+        <item name="panel_padding">@dimen/offset8</item>
+        <item name="title_text_color">@color/colorMazarineText</item>
+        <item name="title_font">@font/raleway_bold</item>
+        <item name="title_text_size">@dimen/body2</item>
+        <item name="content_font">@font/raleway</item>
+        <item name="android:paddingStart">@dimen/offset16</item>
+        <item name="android:paddingEnd">@dimen/offset8</item>
+        <item name="content_text_color">@color/colorMazarineText</item>
+        <item name="content_text_size">@dimen/body2</item>
+        <item name="expand_duration">300</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
